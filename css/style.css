@@ -18,7 +18,7 @@ body {
   color: #777;
   background: #fff;
 }
-#background{
+#backgroundpf{
   width: 100%;
  height: 100%;
 }
@@ -76,8 +76,14 @@ height: 1100px;
   height: 50px;
   width: 50px;
 }
-
-
+#backgroundprf{
+width: 100%;
+height: 100%;
+}
+#backgrounddepen{
+width: 100%;
+height: 500px;
+}
 #page {
   position: relative;
   overflow-x: hidden;
@@ -192,6 +198,11 @@ width: 100%;
 margin-top: 2170px;
     }
   }
+#animação{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+}
 
 
 .gtco-nav #gtco-logo {
@@ -693,7 +704,9 @@ margin-top: 2170px;
 #gtco-footer .gtco-cta .btn-white {
   padding: 15px 20px !important;
 }
+
 #gtco-footer .gtco-cta .btn-white.btn-outline:hover {
+
   color: #000 !important;
 }
 #gtco-footer .gtco-footer-paragraph h3 {
@@ -1409,22 +1422,42 @@ form label {
 }
 
 .btn-white {
-  background: #fff;
-  color: #000;
+  background: #00ffa3;
+  color: white;
   border: 2px solid #fff;
 }
 .btn-white:hover, .btn-white:focus, .btn-white:active {
-  color: #000;
-  background: #fff;
+  color: white;
+  background: #00ffa3;
   border-color: #fff;
 }
 .btn-white.btn-outline {
-  color: #fff;
+  color: white;
   border: 2px solid #fff;
 }
 .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
-  background: #fff;
-  color: #000 !important;
+  background: #00ffa3;
+  color: white !important;
+  border: 2px solid #fff;
+}
+
+.btnt {
+  background: white;
+  color: white;
+  border: 2px solid #fff;
+}
+.btnt:hover, .btn-white:focus, .btn-white:active {
+  color: white;
+  background: white;
+  border-color: #fff;
+}
+.btnt.btn-outline {
+  color: white;
+  border: 2px solid #fff;
+}
+.btnt.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
+  background: white;
+  color: white !important;
   border: 2px solid #fff;
 }
 
